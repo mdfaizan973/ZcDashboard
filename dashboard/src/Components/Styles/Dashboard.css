@@ -1,5 +1,4 @@
 .main_container {
-  /* border: 1px solid red; */
   height: 95vh;
   width: 100%;
   margin-top: 10px;
@@ -9,12 +8,12 @@
 .sidebar_container {
   width: 20%;
   padding: 10px;
-  /* border: 1px solid red; */
+  border: 1px dotted red;
   height: 95vh;
 }
 .content_container {
   width: 80%;
   padding: 10px;
   height: 95vh;
-  border: 1px solid rgb(119, 255, 0);
+  border: 1px dotted rgb(119, 255, 0);
 }
