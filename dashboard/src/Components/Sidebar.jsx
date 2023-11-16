@@ -1,7 +1,13 @@
+import "./Styles/Sidebar.css";
 export default function Sidebar() {
   return (
     <div>
-      <div className="w-full h-[93vh]  bg-gray-800 text-center rounded-[15px] shadow-md p-4 mx-auto">
+      <div
+        className="
+        main_sidebar
+        w-[250px] h-[93vh]  
+       text-center rounded-[15px]  p-4 mx-auto"
+      >
         <div className="flex items-center space-x-2">
           <img
             src="https://demos.creative-tim.com/material-dashboard-pro/assets/img/logo-ct.png"
@@ -35,7 +41,6 @@ export default function Sidebar() {
             </svg>
             Dashboard
           </button>
-
           <button
             type="button"
             className="text-white   hover:bg-[#8A8A8A36] w-[100%]   font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2"
@@ -181,7 +186,7 @@ export default function Sidebar() {
 
         <button
           type="button"
-          className="text-white mt-[50px] bg-[#1da1f2] hover:bg-[#1da1f2]/90  w-[100%] focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-center me-2 mb-2"
+          className="text-white mt-[100px] bg-[#1da1f2] hover:bg-[#1da1f2]/90  w-[100%] focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-center me-2 mb-2"
         >
           UPGRADE TO PRO
         </button>
