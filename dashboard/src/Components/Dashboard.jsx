@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import "./Styles/Dashboard.css";
 export default function Dashboard() {
@@ -8,7 +9,11 @@ export default function Dashboard() {
           <Sidebar />
         </div>
 
-        <div className="content_container">Content_card</div>
+        <div className="content_container">
+          <div className="navbar">
+            <Navbar />
+          </div>
+        </div>
       </div>
     </div>
   );
