@@ -6,7 +6,6 @@
   backdrop-filter: saturate(200%) blur(1.875rem);
   background-color: rgba(255, 255, 255, 0.8);
   color: rgb(52, 71, 103);
-  /* color: red; */
   font-weight: 600;
   position: sticky;
   z-index: 1100;
