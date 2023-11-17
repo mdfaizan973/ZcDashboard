@@ -80,7 +80,7 @@ export default function Table() {
           </svg>
         </div>
       </nav>
-
+      {/* Table */}
       <div className="mt-3">
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
