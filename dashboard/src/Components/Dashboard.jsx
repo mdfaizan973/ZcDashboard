@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import "./Styles/Dashboard.css";
+import TopCards from "./TopCards";
 export default function Dashboard() {
   return (
     <div>
@@ -12,6 +13,9 @@ export default function Dashboard() {
         <div className="content_container">
           <div className="navbar">
             <Navbar />
+          </div>
+          <div className="top-cards">
+            <TopCards />
           </div>
         </div>
       </div>

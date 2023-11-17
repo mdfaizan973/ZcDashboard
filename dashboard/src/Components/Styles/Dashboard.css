@@ -17,3 +17,7 @@
   height: 95vh;
   border: 1px dotted rgb(119, 255, 0);
 }
+.top-cards {
+  margin-top: 10px;
+  padding: 5px;
+}
