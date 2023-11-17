@@ -1,4 +1,5 @@
 import ChartCards from "./ChartCards";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Overview from "./Overview";
 import Sidebar from "./Sidebar";
@@ -32,6 +33,10 @@ export default function Dashboard() {
             <div className="overview-section">
               <Overview />
             </div>
+          </div>
+
+          <div className="footers">
+            <Footer />
           </div>
         </div>
       </div>

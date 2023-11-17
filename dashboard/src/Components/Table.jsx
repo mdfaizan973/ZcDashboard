@@ -1,16 +1,51 @@
 // import React from 'react'
 import "./Styles/Table.css";
 export default function Table() {
-  const progressValue = 60;
-
-  const data = [{}, {}, {}, {}, {}, {}];
+  const data = [
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-xd.6e37886f94dba0c2967ece68a152e30c.svg",
+      text: "Material UI XD Version",
+      progressValue: "60",
+      budget: "$14,000",
+    },
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-atlassian.f2b0e8570a4b4ce768854ff3dad1a6e1.svg",
+      text: "Add Progress Track",
+      progressValue: "10",
+      budget: "$3,000",
+    },
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-slack.7c47c5aa474b5c4fb39fcf05ffb8e4e7.svg",
+      text: "Fix Platform Errors",
+      progressValue: "100",
+      budget: "Not Set",
+    },
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-spotify.e83cf56c9d99a1fdf59e8deb58bbe470.svg",
+      text: "Launch our Mobile App",
+      progressValue: "100",
+      budget: "$20,500",
+    },
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-jira.c19fd4e416babfbd0fdb0a794188c601.svg",
+      text: "Add the New Pricing Page",
+      progressValue: "30",
+      budget: "$500",
+    },
+    {
+      img: "https://demos.creative-tim.com/material-dashboard-react/static/media/logo-invision.a1062115730dcd10e1c4f4abe7b9ab33.svg",
+      text: "Redesign New Online Shop",
+      progressValue: "40",
+      budget: "$2,000",
+    },
+  ];
   return (
     <div className="main-table">
       <nav className="p-4 flex justify-between items-center">
         <div className=" text-md font-bold">
           Projects
           <br />
-          <span className="text-gray-400 flex">
+          <span className="text-gray-400 flex mt-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -85,12 +120,12 @@ export default function Table() {
                       <tr key={i}>
                         <td className="px-6 py-4 whitespace-nowrap flex items-center">
                           <img
-                            src="https://demos.creative-tim.com/material-dashboard-react/static/media/logo-xd.6e37886f94dba0c2967ece68a152e30c.svg"
+                            src={ele.img}
                             className="h-7 w-67 mr-2"
                             alt="Material UI XD Logo"
                           />
                           <span className="text-sm font-bold text-gray-600">
-                            Material UI XD Version
+                            {ele.text}
                           </span>
                         </td>
 
@@ -119,13 +154,13 @@ export default function Table() {
                           </div>
                         </td>
                         <td className="px-6 py-4 text-xs font-bold text-gray-500 whitespace-nowrap">
-                          $14,000
+                          {ele.budget}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="relative w-full h-2 bg-gray-200  rounded overflow-hidden">
                             <div
                               className="bg-blue-500 h-full"
-                              style={{ width: `${progressValue}%` }}
+                              style={{ width: `${ele.progressValue}%` }}
                             ></div>
                           </div>
                         </td>
