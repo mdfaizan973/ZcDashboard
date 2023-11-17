@@ -40,7 +40,7 @@ export default function Table() {
     },
   ];
   return (
-    <div className="main-table">
+    <div className="main-table bg-white">
       <nav className="p-4 flex justify-between items-center">
         <div className=" text-md font-bold">
           Projects
