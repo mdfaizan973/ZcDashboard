@@ -3,16 +3,14 @@ export default function Sidebar() {
   return (
     <div>
       <div
-        className="
-        main_sidebar
-        w-[250px] h-[93vh]  
+        className=" main_sidebar w-[250px] h-[93vh]  
        text-center rounded-[15px] p-4 mx-auto"
       >
         <div className="flex items-center space-x-2">
           <img
-            src="https://demos.creative-tim.com/material-dashboard-pro/assets/img/logo-ct.png"
+            src="https://i.pinimg.com/564x/0b/94/73/0b9473e3121c2ad5c23d83702647fac2.jpg"
             alt="Dashboard Logo"
-            className="h-6 w-6"
+            className="h-6 w-6 rounded-full"
           />
           <span className="text-sm text-white font-semibold">My Dashboard</span>
         </div>
