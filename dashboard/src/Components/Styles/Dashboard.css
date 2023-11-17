@@ -24,15 +24,14 @@
 }
 .table-and-overview {
   display: flex;
-  height: 50vh;
   margin-top: 25px;
 }
 
 .table-section {
   width: 67%;
-  border: 1px dotted red;
+  padding: 5px;
 }
 .overview-section {
   width: 33%;
-  border: 1px dotted blue;
+  padding: 5px;
 }

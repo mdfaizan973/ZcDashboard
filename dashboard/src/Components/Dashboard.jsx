@@ -1,7 +1,9 @@
 import ChartCards from "./ChartCards";
 import Navbar from "./Navbar";
+import Overview from "./Overview";
 import Sidebar from "./Sidebar";
 import "./Styles/Dashboard.css";
+import Table from "./Table";
 import TopCards from "./TopCards";
 export default function Dashboard() {
   return (
@@ -24,8 +26,12 @@ export default function Dashboard() {
           </div>
 
           <div className="table-and-overview">
-            <div className="table-section">Table</div>
-            <div className="overview-section">Overview</div>
+            <div className="table-section">
+              <Table />
+            </div>
+            <div className="overview-section">
+              <Overview />
+            </div>
           </div>
         </div>
       </div>
