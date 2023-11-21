@@ -1,8 +1,8 @@
 import "./Styles/Navbar.css";
 export default function Navbar() {
   return (
-    <div>
-      <div className="dash_nav ">
+    <div className="">
+      <div className="dash_nav fixed w-[77%]">
         <div className="flex items-center">
           <svg
             className="h-4 w-4 text-gray-700 mr-2"

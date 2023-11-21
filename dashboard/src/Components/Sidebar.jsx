@@ -4,7 +4,7 @@ export default function Sidebar() {
     <div>
       <div
         className=" main_sidebar w-[250px] h-[93vh]  
-       text-center rounded-[15px] p-4 mx-auto"
+       text-center rounded-[15px] p-4 mx-auto fixed"
       >
         <div className="flex items-center space-x-2">
           <img
